@@ -1,0 +1,39 @@
+#Mike{
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #a3a3a3;
+    margin: 40px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    text-decoration: none;
+    cursor:default
+}
+
+#Mike:hover {
+    color: #5485c4;
+    font-size:5rem;
+}
+
+.myfix{
+    background: transparent;
+}
+.myfix2{
+    opacity:.50;
+}
+
+.imgSize{
+    max-height: 250px;
+    width: 250px;
+  }
+
+  .imgSize1{
+    max-height: 200px;
+    width: 200px;
+  }
+  .imgSize2{
+    max-height: 400px;
+
+  }
