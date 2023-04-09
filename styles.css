@@ -20,6 +20,7 @@
 .myfix{
     background: transparent;
 }
+
 .myfix2{
     opacity:.50;
 }
@@ -33,7 +34,36 @@
     max-height: 200px;
     width: 200px;
   }
+
   .imgSize2{
     max-height: 400px;
-
   }
+
+  .background-img {
+    background-image: url("/assets/resumeD.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .RPG-Title{
+    font-family: 'Sigmar One', cursive;
+  }
+  .ComingSoon{
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(216, 223, 112)
+  }
+  .cardd {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(114, 114, 114, 0.2);
+    border-color: black;
+    color:white;
+    letter-spacing: 3px;
+    text-shadow:
+    -1bpx -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+
