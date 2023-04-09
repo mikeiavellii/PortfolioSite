@@ -1,69 +1,130 @@
-#Mike{
-    font-family: 'Merriweather', serif;
-    font-size: 4rem;
-    letter-spacing: 3px;
-    color: #a3a3a3;
-    margin: 40px;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    text-decoration: none;
-    cursor:default
+#Mike {
+  font-family: 'Merriweather', serif;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  color: #a3a3a3;
+  margin: 40px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-decoration: none;
+  cursor: default
 }
 
 #Mike:hover {
-    color: #5485c4;
-    font-size:5rem;
+  color: #5485c4;
+  font-size: 5rem;
 }
 
-.myfix{
-    background: transparent;
+.myfix {
+  background: transparent;
 }
 
-.myfix2{
-    opacity:.50;
+.myfix2 {
+  opacity: .50;
 }
 
-.imgSize{
-    max-height: 250px;
-    width: 250px;
-  }
+.imgSize {
+  max-height: 250px;
+  width: 250px;
+}
 
-  .imgSize1{
-    max-height: 200px;
-    width: 200px;
-  }
+.imgSize1 {
+  max-height: 200px;
+  width: 200px;
+}
 
-  .imgSize2{
-    max-height: 400px;
-  }
+.imgSize2 {
+  max-height: 400px;
+}
 
-  .background-img {
-    background-image: url("/assets/resumeD.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.background-img {
+  background-image: url("/assets/resumeD.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .RPG-Title{
-    font-family: 'Sigmar One', cursive;
-  }
-  .ComingSoon{
-    font-family: 'Bebas Neue', cursive;
-    color:rgb(216, 223, 112)
-  }
-  .cardd {
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(114, 114, 114, 0.2);
-    border-color: black;
-    color:white;
-    letter-spacing: 3px;
-    text-shadow:
+.RPG-Title {
+  font-family: 'Sigmar One', cursive;
+  letter-spacing: 1px;
+}
+
+.ComingSoon {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  color: rgb(216, 223, 112)
+}
+
+.cardd {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(114, 114, 114, 0.2);
+  border-color: black;
+  color: white;
+  text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-  }
+}
 
+.GitHub {
+  text-decoration: none;
+  color: rgb(0, 0, 192);
+}
+
+.GitHub:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 192);
+}
+
+.GitHub:hover {
+  color: black;
+}
+
+.GitHub:active {
+  color: black;
+  text-decoration: underline;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.Demo {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(	69, 130, 236);
+}
+
+.Demo:Hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(78, 119, 196);
+}
+
+.GH {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.GH:Hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(80, 80, 80);
+}
+
+.Play {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 215, 109);
+}
+
+.Play:Hover {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 226, 148);
+}
