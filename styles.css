@@ -99,11 +99,16 @@
   background-color: rgb(	69, 130, 236);
 }
 
-.Demo:Hover {
+.Demo:disabled {
+  background-color: dimgrey;
+  color: linen;
+  opacity: 1;
+}
+/* .Demo:Hover {
   text-decoration: none;
   color: white;
   background-color: rgb(78, 119, 196);
-}
+} */
 
 .GH {
   text-decoration: none;
