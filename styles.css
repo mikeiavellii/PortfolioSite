@@ -3,7 +3,6 @@
   font-size: 4rem;
   letter-spacing: 3px;
   color: #a3a3a3;
-  margin: 40px;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
@@ -17,12 +16,21 @@
   font-size: 5rem;
 }
 
-.myfix {
-  background: transparent;
+#sectionLinks{
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #a3a3a3;
+  margin: 20px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-decoration: none;
 }
-
-.myfix2 {
-  opacity: .50;
+#sectionLinks:hover {
+  color: #5485c4;
+  font-size: 2.5rem;
 }
 
 .imgSize {
@@ -135,5 +143,5 @@
 }
 
 #Contact{
-  background-color: rgb(69, 130, 236);
+  background-color: rgb(255, 255, 255);
 }
