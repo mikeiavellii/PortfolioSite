@@ -165,8 +165,8 @@
   transition: all 1s;
 } */
 
-body{
-  background-image: url("assets/texturedsquares.png");
+.holder{
+  background-image: url("/assets/texturedsquares.png");
   background-position: center;
   background-repeat: repeat;
 }
