@@ -46,20 +46,17 @@
     <!--Section Links End-->
 
     <!--Socials-->
-    <div id="Socials">
-        <div class="row col-md-4 col-4 offset-4 offset-md-4 text-center">
+        <div class="card col-md-4 col-4 offset-4 offset-md-4 text-center sections">
             <div>
-                <a href ="https://www.linkedin.com/in/mikeblackburn4/"><img class="col-md-1 offset-md-1 col-3" src="assets/LI.png"/></a>
-
-                <a href ="https://github.com/mikeiavellii/"><img class="col-md-1 col-3 offset-md-1 offset-2" src="assets/git.png"/></a>
+                <a href ="https://www.linkedin.com/in/mikeblackburn4/"><img class="col-md-1 offset-md-1 col-3 Socials" src="assets/LI2.png"/></a>
+                <a href ="https://github.com/mikeiavellii/"><img class="col-md-1 col-3 offset-md-1 offset-2 Socials" src="assets/GH2.webp"/></a>
             </div>
         </div>
-    </div>
     <!--Socials End-->
     <!--Header End-->
     
     <!--Welcome-->
-    <div id="Welcome" class="container-fluid card col-10 offset-1 p-3 pb-5 pb-md-1 mt-4 border-5 rounded-5">
+    <div id="Welcome" class="container-fluid card col-10 offset-1 p-3 pb-5 pb-md-1 mt-4 border-5 rounded-5 sections">
         <div class="row">
             <div class="col offset-md-1 col-md-7 p-md-5 p-3 text-center">
                 <h2>Hello and welcome! I'm Mike.</h2>
@@ -85,7 +82,7 @@
     <!--Section Divider End - mobile friendly-->
 
     <!--Education-->
-    <div id="Education" class="container-fluid card col-10 offset-1 p-3 pb-2 pb-md-1 border-5 rounded-5 pt-md-5 pt-3">
+    <div id="Education" class="container-fluid card col-10 offset-1 p-3 pb-2 pb-md-1 border-5 rounded-5 pt-md-5 pt-3 sections">
         <div class="row">
             <div class="col col-md-3 col-12 offset-md-1 pb-md-0 pb-4">
                 <img class=" d-block col offset-md-1 col-md-8 col-12 offset-2 imgSize" src="assets/GC.png" />
@@ -135,26 +132,9 @@
     <div class="pt-3 pb-3"></div>
     <!--Section Divider End - mobile friendly-->
 
-    <!--RPG Explorer-->
-    <div id="RPG"
-        class="container-fluid card col-10 offset-1 p-0 pt-0 pb-5 pb-md-5 border-5 rounded-5 background-img card-bg the">
-        <div class="row">
-            <div class="mt-5 pt-3"></div>
-            <div class="offset-1 col-10 card border-5 rounded-0 text-center cardd">
-                <h2 class="RPG-Title pt-4 pt-md-4">Resume Explorer RPG</h5>
-                <h5 class="pt-md-3 pb-md-3 mt-3">Explore my body of work in a unique way</p>
-                <h1 class="ComingSoon pb-3 pb-md-4">Coming Soon</h1>
-            </div>
-        </div>
-    </div>
-    <!--RPG Explorer End-->
-
-    <!--Section Divider - mobile friendly-->
-    <div class="pt-3 pb-3"></div>
-    <!--Section Divider End - mobile friendly-->
-
+   
     <!--Projects-->
-    <div id="Projects" class="container-fluid card col-10 offset-1 p-3 pb-1 pb-md-1 border-5 rounded-5">
+    <div id="Projects" class="container-fluid card col-10 offset-1 p-3 pb-1 pb-md-1 border-5 rounded-5 sections">
         <div class="row">
             <div class="p-3 pt-md-3 pt-1 text-center">
                 <h2>Projects</h2>
@@ -164,16 +144,19 @@
         </div>
 
         <!--Fantasy Fishing-->
-        <div class="card rounded-5 col-md-8 offset-md-2 text-center p-3 border-3">
+        <div class="card rounded-5 col-md-10 offset-md-1 text-center p-3 border-3">
             <h4>Fantasy Fishing</h4>
-            <p>Fantasy Fishing is a Full Stack fishing game utilizing the extral FishAPI as well as as backend SQL database which stores data. User's can create an account, cast their line out and pull one of 906 fish or nothing at all from the user chosen depth.
+            <p>Fantasy Fishing is a Full Stack fishing game utilizing the external FishAPI as well as a backend SQL database which stores data. Users can create an account, cast their line out and pull one of 906 fish or nothing at all from the user chosen depth.
                 There are trophies to be earned, buffs that enhance the user's fishing experience that can be purchased using in game currency, and a leaderboard to climb to the top of. There is also an in app music player, containing original music. <br>
             
             <br>This project is still being updated so check back often.</p>
 
-            <a href="https://fantasyfishing.azurewebsites.net/" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 Play">Play the Game</p></a>
-            <a href="#Projects" disabled aria-disabled="true" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 Demo">Demo Video</p></a>
+            <a href="https://fantasyfishingnew.azurewebsites.net/" disabled aria-disabled="true" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 Play">Play the Game</p></a>
+            <!-- <a href="#Projects" disabled aria-disabled="true" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 Demo">Demo Video</p></a> -->
+            
             <a href="https://github.com/mikeiavellii/FantasyFishing" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 GH">Check it out on GitHub</p></a>
+            <span title="Video coming soon">
+            <button type="button" class="btn btn-sm btn-warning rounded-5 col-10 m-0 p-0 text-center border-2 Play text-white" disabled>Demo Video</button></span>
         </div>
         <!--Fantasy Fishing Ends-->
 
@@ -181,14 +164,16 @@
         <div class="pt-2 pb-2"></div>
         
         <!--Library Terminal-->
-        <div class="card rounded-5 col-md-8 offset-md-2 text-center p-3 border-3">
+        <div class="card rounded-5 col-md-10 offset-md-1 text-center p-3 border-3">
             <h4>Library Terminal</h4>
             <p>Myself and three other devs were tasked with creating a library terminal app where the user could check books in and out and track each books availability status. Using I/O functions inside
                  of C#, we created a user system that allows a user to create their own user profile. Inside of said user profile checked out books would be stored in their name indvidually allowing 
                  specific users to check in their specific books. There was also permissions only granted to specific users. All of this was done in C# without the use of any database/SQL.
             </p>            
-            <a href="#Projects" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 Demo" disabled aria-disabled="true">Demo Video</p></a>
             <a href="https://github.com/mikeiavellii/LibraryDB" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 GH">Check it out on GitHub</p></a>
+            <span title="Video coming soon">
+                <button type="button" class="btn btn-sm btn-warning rounded-5 col-10 m-0 p-0 text-center border-2 Play text-white" disabled>Demo Video</button>
+            </span>
         </div>
         <!--Library Terminal Ends-->
 
@@ -196,11 +181,14 @@
         <div class="pt-2 pb-2"></div>
 
         <!--Help Desk-->
-        <div class="card rounded-5 col-md-8 offset-md-2 text-center p-3 pb-2 border-3">
+        <div class="card rounded-5 col-md-10 offset-md-1 text-center p-3 pb-2 border-3 ">
             <h4>Help Desk Ticket System</h4>
             <p>A full stack online ticket system where a user can create a profile, submit an IT ticket to the system detailing an issue that they are facing. That ticket can then be closed out by an admin with a resolution message or saved in favorites for quick reference on recurring issues. Tickets are sorted by the end users ID.</p>            
-            <a href="#Projects" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 Demo" disabled aria-disabled="true">Demo Video</p></a>
+            
             <a href="https://github.com/mikeiavellii/HelpDeskTicket" class="links"><p class="card rounded-5 col-10 offset-1 text-center border-2 GH">Check it out on GitHub</p></a>
+            <span title="Video coming soon">
+                <button type="button" class="btn btn-sm btn-warning rounded-5 col-10 m-0 p-0 text-center border-2 Play text-white" disabled>Demo Video</button>
+            </span>
         </div>
         <!--Help Desk Ends-->
         <div class="pt-2 pb-2"></div>
@@ -212,21 +200,41 @@
     <div class="pt-3 pb-3"></div>
     <!--Section Divider End - mobile friendly-->
 
-    <div id="Contact" class="text-center card col-10 offset-1 p-3 pb-3 pb-md-5 border-5 rounded-5">
-            <h1>Contact Me</h1>
-            <form class="container text-center border border-white p-5 pt-3 pb-md-1 pb-0 col-md-8" accept-charset="utf-8" action="https://formspree.io/f/xqkogqnn" method="POST">
-                <input class="form-control mb-3" type="text" name="name" id="fullName" placeholder="Full Name" required>
-                <input class="form-control mb-3" type="text" name="email" id="email" placeholder="exampleemail@example.com" required>
-                <textarea class="form-control mb-3" name="message" id="message" rows="4" placeholder="Send me a message to connect here and I will respond as soon as possible." required></textarea>
-                <button class="btn btn-info btn-lg"type="submit">Send</button>
-                </form>
+    <!--RPG Explorer-->
+    <div id="RPG"
+     class="container-fluid card col-10 offset-1 p-0 pt-0 pb-5 pb-md-5 border-5 rounded-5 background-img card-bg the sections">
+     <div class="row">
+         <div class="mt-5 pt-3"></div>
+         <div class="offset-1 col-10 card border-5 rounded-0 text-center cardd">
+             <h2 class="RPG-Title pt-4 pt-md-4">Resume Explorer RPG</h5>
+             <h5 class="pt-md-3 pb-md-3 mt-3">Explore my body of work in a unique way</p>
+             <h1 class="ComingSoon pb-3 pb-md-4">Coming Soon</h1>
+         </div>
+     </div>
     </div>
+    <!--RPG Explorer End-->
+
+ <!--Section Divider - mobile friendly-->
+ <div class="pt-3 pb-3"></div>
+ <!--Section Divider End - mobile friendly-->
+
+
+    <!--Contact-->
+    <div id="Contact" class="text-center card col-10 offset-1 p-3 pb-3 pb-md-3 border-5 rounded-5 text-white">
+            <h1>Contact Me</h1>
+            <form class="container text-center  p-5 pt-3 pb-md-1 pb-0 col-md-8" accept-charset="utf-8" action="https://formspree.io/f/xqkogqnn" method="POST">
+                <input class="form-control mb-3 border-light" type="text" name="name" id="fullName" placeholder="Full Name" required>
+                <input class="form-control mb-3 border-light" type="text" name="email" id="email" placeholder="exampleemail@example.com" required>
+                <textarea class="form-control mb-3 border-light" name="message" id="message" rows="4" placeholder="Send me a message to connect here and I will respond as soon as possible." required></textarea>
+                <button class="btn btn-light btn-lg"type="submit">Send</button>
+            </form>
+    </div>
+    <!--Contact End-->
 
     <!--Footer-->
-    <div class="row">
-        <div class="card-footer col-10 offset-1">
-            <hr>
-            <div class="card-footer text-center mb-3"><b><i>"Every human heart beat is a universe of possibilities."</b>- Gregory David Roberts</i> <br>Michael Blackburn ©2023</div>
+    <div class="row pt-4">
+        <div class="foots text-center">
+            <b><i>"Every human heartbeat is a universe of possibilities."</b>- Gregory David Roberts</i> <br>Michael Blackburn ©2023
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

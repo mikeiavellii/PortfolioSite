@@ -2,13 +2,13 @@
   font-family: 'Merriweather', serif;
   font-size: 4rem;
   letter-spacing: 3px;
-  color: #a3a3a3;
+  color: #FFEAC8;
+  text-decoration: none;
+  cursor: default;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
-  text-decoration: none;
-  cursor: default
 }
 
 #Mike:hover {
@@ -20,7 +20,7 @@
   font-family: 'Merriweather', serif;
   font-size: 2rem;
   letter-spacing: 3px;
-  color: #a3a3a3;
+  color: #FFEAC8;
   margin: 20px;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -47,13 +47,13 @@
   max-height: 400px;
 }
 
-.background-img {
+/* .background-img {
   background-image: url("/assets/resumeD.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .RPG-Title {
   font-family: 'Sigmar One', cursive;
@@ -133,6 +133,7 @@
 .Play {
   text-decoration: none;
   color: black;
+  border-color: black;
   background-color: rgb(255, 215, 109);
 }
 
@@ -141,7 +142,38 @@
   color: black;
   background-color: rgb(255, 226, 148);
 }
+.Play:disabled {
+  text-decoration: none;
+  border-color: black;
+  background-color: rgb(	19, 80, 185);
+}
 
 #Contact{
+  background-color: #2570ad;
+}
+
+/* .Socials{
+  height: 10%;
+  width: auto;
+}
+.Socials:hover{
+  height: 15%;
+  width: auto;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+} */
+
+body{
+  background-image: url("/assets/texturedsquares.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+.sections{
+  background-color: #E5E5E5;
+}
+
+.foots{
   background-color: rgb(255, 255, 255);
 }
